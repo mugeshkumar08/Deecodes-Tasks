@@ -1,0 +1,1433 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+
+.logo img{
+    width: 115px;
+    height: 23px;
+    padding-left: 76px;
+    padding-right: 16px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: 54px;
+   
+    font-size: 13px;
+    align-items: center;
+}
+
+.nav-links ul li{
+   display: inline-block;
+   padding: 3px 8px 10px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.nav-links-two ul li{
+    display: inline-block;
+    padding: 3px 8px 10px;
+    margin-top: 5px;
+}
+
+.menu-bars{
+    display: none;
+}
+
+.search-icons{
+    display: none;
+}
+
+.cart-icons{
+    display: none;
+}
+
+.Sign-icons{
+    display: none;
+}
+
+.drop-downs{
+    display: flex;
+    margin-left: 75px;
+    margin-top: -20px;
+}
+
+.cart-icon{
+    display: flex;
+    margin-left: 27px;
+    margin-top: -15px;
+    width: 15px;
+    height: 16px;
+}
+
+.Sign-icon{
+    display: flex;
+    margin-left: 45px;
+    margin-top: -18px;
+    width: 20px;
+    height: 20px;
+}
+
+.search-icon{
+    display: flex;
+    margin-left: 45px;
+    margin-top: -15px;
+    width: 15px;
+    height: 15px;
+}
+
+#menuList2{
+    display: none;
+}
+
+.nav-links-two{
+    margin-left: 460px;
+}
+
+.banner-img img{
+    position: static;
+    width: 1519.2px;
+    height: 480px;    
+}
+
+span{
+    padding: 4px 12px 4px 12px;
+    background-color: #ffb900;
+}
+
+.banner-img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1519.2px;
+    height: max-content;
+    height: 480px;
+}
+
+.slide2{
+    width: 100%;
+}
+
+.banner-img .slides{
+    width: 1519.2px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slides,
+.hidden
+{
+display: none;
+}
+
+.active{
+  display: block;
+}
+
+
+.banner-text{
+    position: absolute;
+    top: 470px;
+    width: 410px;
+    height: 294px;  
+}
+
+.head p{
+    margin-top: 5px;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.banner-btn{
+    margin-top: 15px;
+    padding: 8px 12px;
+    font-weight: 500;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;   
+}
+
+.banner-para{
+    margin-top: 16px;
+}
+
+.banner-text{
+    width: 380px;
+    height: 222px;
+    background-color: #fff !important;;
+    margin-top: -400px;
+    margin-left: 80px;
+    padding: 48px;
+}
+
+.slider-btn{
+    position: absolute;
+    margin-left: 43%;
+    display: flex;
+    margin-top: 500px;
+}
+
+.circle-btn{
+    font-size: 16px !important;
+}
+
+.circle-btn2{
+    font-size: 16px !important;
+}
+
+.play-btn{
+    font-size: 22px !important;
+}
+
+.slider-btn button{
+    font-size: 25px;
+    font-weight: 100;
+    background-color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.svg1{
+    width: 40px;
+    height: 40px;
+    padding: 0px 70px 0px 70px;
+}
+
+.svg1 p a{
+  margin-left: -80px;
+}
+
+.svg2{
+    width: 40px;
+    height: 40px;
+    padding: 0px 70px 0px 70px;
+}
+
+.svg2 p a{
+    margin-left: -20px;
+  }
+
+.svg3{
+    width: 40px;
+    height: 40px;
+    padding: 0px 70px 0px 70px;
+}
+
+.svg3 p a{
+    margin-left: -40px;
+  }
+
+.svg4{
+    width: 40px;
+    height: 40px;
+    padding: 0px 70px 0px 70px;
+}
+
+.svg4 p a{
+    margin-left: -60px;
+  }
+
+section.sec-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.link{
+    display: block;
+    width: 200px;
+}
+
+.card{
+    width: 324px;
+    height: 518px;
+    border-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 22px;
+}
+
+.card img{
+    width: 324px;
+    height: 181.5px;
+}
+
+.sec-three{
+    margin-top: 120px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-left: 25px;
+}
+
+.card h2{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.card p{
+    margin-left: 25px;
+    padding-right: 25px;
+    margin-top: 16px;
+}
+.card-btn,.card-btn-x,
+.card-bt-s, .card-btn-d{
+    margin-left: 25px;
+    display: block;
+    padding: 8px 12px;
+    font-weight: 500;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+a{
+    color: #0067b8;
+    font-weight: 500;
+}
+
+.card a{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.card-btn-x{
+    margin-top: 175px;
+}
+
+.card-bt-s{
+    margin-top: 155px;
+}
+
+.card-btn-d{
+    margin-top: 95px;
+}
+
+.banner-img2 img{
+    margin-top: 120px;
+    width: 1362px;
+    height: 461px;
+    margin-left: 80px;
+}
+
+.banner-text2{
+    margin-top: -310px;
+    margin-left: 170px;
+
+}
+
+.banner-head2 p{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.banner-para2{
+    color: white;
+    margin-top: 16px;
+}
+
+.banner-btn2{
+    margin-left: 16px;
+    padding: 8px 12px;
+    font-weight: 500;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: -2px;
+}
+
+.card2{
+    width: 324px;
+    height: 458px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 22px;
+}
+
+.card2 img{
+    width: 324px;
+    height: 181.5px;
+}
+
+.sec-four{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.card-btn-b{
+    margin-left: 25px;
+    margin-top: 16px;
+    padding: 8px 12px;
+    font-weight: 500;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 95px;
+    font-size: 16px;
+}
+
+.card-btn-m{
+    margin-left: 25px;
+    margin-top: 16px;
+    padding: 8px 12px;
+    font-weight: 500;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 36px;
+    font-size: 16px;
+}
+
+.card-btn-w{
+    margin-left: 25px;
+    margin-top: 16px;
+    padding: 8px 12px;
+    font-weight: 500;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+.card-btn-m365{
+    margin-left: 25px;
+    margin-top: 16px;
+    padding: 8px 12px;
+    font-weight: 500;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 73px;
+    font-size: 16px;
+}
+
+.card2 h2{
+    margin-top: 16px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.card2 p{
+    margin-left: 25px;
+    padding-right: 25px;
+    margin-top: 16px;
+}
+
+.Business-heading{
+    margin-top: 250px;
+    margin-left: 80px;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+
+.social-media li img{
+   width: 32px;
+   height: 32px;
+}
+.social-media li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 0px 10px;
+}
+
+.final-btn{
+    margin-left: 1370px;
+    margin-top: 16px;
+    padding: 10px 12px;
+    font-weight: 500;
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+}
+
+footer{
+    background-color:#f2f2f2;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+}
+
+.footer-list{
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.footer-list li{
+    list-style-type: none;
+    margin-top: 8px;   
+}
+
+.footer-list a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #414040; 
+    font-weight: 400;  
+}
+
+.footer-list .list{
+    padding: 0px 40px;
+}
+
+.bottom{
+    display: flex;
+    font-size: 11px;
+    margin-top: 50px;
+    margin-left: 40px;   
+}
+
+.bottom a{
+    text-decoration: none;
+    color: #414040; 
+    font-weight: 400;
+}
+
+.bottom1 ul li{
+    display: inline;
+    padding: 0px 10px;
+}
+.bottom1 img{
+  
+    width: 40px;
+    height: 15px;
+    padding-right: 10px;    
+}
+
+.bottom2 ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-top: px;
+}
+
+.bottom2{
+    margin-left: 420px;
+}
+
+header{
+    font-weight: 500;
+    color: #525252;
+}
+
+ ul .earth-png{
+    width: 18px;
+    height: 18px;
+}
+
+/* Tablet view */
+@media only screen and (max-width: 768px) {
+    .navbar{
+        width: 100% !important;
+        height: 54px !important;    
+    }
+
+    .nav-links{
+        z-index: 3;
+        display: none;
+    }
+
+    .nav-links.showmenu{
+        display: block;
+    }
+
+    /* .showsoftware-sub-link{
+        display: none;
+    } */
+
+    .sub-links{
+        position: absolute;
+    }
+
+    .nav-links-two{
+        display: none;
+    }
+
+    .nav-links #menuList2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 660px;
+        margin-left: -755px;
+        background-color: #f2f2f2;
+        font-size: 15px;
+    }
+
+    .nav-links #menuList2 ul li{
+        padding: 20px 0; 
+        padding-left: 20px; 
+        display: flex;
+        flex-direction: column;
+        font-size: 15px; 
+    }
+
+    .navbar.logo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logo{
+        margin-top: -35px;
+    }
+
+    .logo img{
+       display: inline-block;
+    }
+
+    .cart-i{
+        margin-top: -20px;
+    }
+
+    .sign-i{
+        margin-top: -15px;
+    }
+
+    .main-logo{
+        padding: 0% !important;
+        margin-top: 40px;
+        margin-left: 30%;
+    }
+
+    .logo .menu-bars{
+        width: 20px !important;
+        height: 20px !important;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 0%;
+    }
+
+    .logo .cart-icons{
+        width: 16px;
+        height: 16px;
+        margin-left: 90%;
+        margin-top: -80px;
+        padding: 0%;
+    }
+
+    .logo .search-icons{
+        width: 16px;
+        height: 16px;
+        padding:0;
+        margin-left: 25px;
+    }
+
+    .logo .Sign-icons{
+        width: 27px;
+        height: 27px;
+        margin-left: 730px;
+        margin-top: -10px !important;
+        padding: 0%;
+    }
+
+    .banner-img{
+        left: 0 !important;
+    }
+
+    .banner-img .slides{
+        position: static;
+    }
+
+    .banner-img .slides img{
+        width: 100% !important;
+        height: 483px !important;
+        object-fit: cover;
+        object-position: 90% center;
+        overflow: hidden;    
+    }
+
+    .slide2{
+        width: 100% !important;
+        height: 483px !important;
+        object-fit: cover;
+        object-position: 90% center;
+        overflow: hidden;    
+    }
+     
+    span{
+        padding: 4px 12px 4px 12px;
+        background-color: #ffb900;     
+     }
+     
+     .banner-text{
+        width: 100%;
+        margin-top: 40px;
+        margin-left:785px;
+        padding:0;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     }
+     
+     .head p{
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 500;
+        color: black;    
+     }
+     
+     .banner-btn{
+        padding: 8px 12px;
+        font-weight: 500;
+        background-color: #0067b8;
+        color: white;
+        border-radius: 2px;
+        border: none;
+        margin-top: 25px;
+        font-size: 16px;   
+     }
+     
+     .banner-para{
+        margin-top: 16px;
+        color: black;
+     }
+
+     .slider-btn{
+        display: flex;
+        margin-top: 260px;
+        margin-left: 68%;
+     }
+     
+     .slider-btn button{
+        font-size: 16px;
+        font-weight: 100;
+        background-color: white;
+        border: none;
+        width: 30px;
+        height: 30px;
+        padding: 0px 20px;
+        cursor: pointer;
+    }
+
+     section.sec-two{
+        width: 100%;
+        display: grid !important;
+        grid-row: auto;
+        margin-top: 330px;
+        margin-left: 4px;    
+    }
+
+    .svg2{
+        margin-top: 40px;
+     }
+
+    .svg3{
+        margin-top: 40px;
+     }
+    
+    .svg4{
+       margin-top: 40px;
+    }
+
+    .link{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sec-three{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;    
+        margin-left: 4px;
+        justify-content: space-around;
+    }
+
+    .card{
+        width: 46.9%;
+        border-color: gray;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    .card h2{
+        font-size: 21px;
+        margin-top: 16px;
+     }
+
+     .card p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+        width: auto;
+     }
+
+     #card-one{
+        width: 46.9%;
+        height: 435px;
+     }
+
+     #card-two{
+        width: 46.9%;
+        height: 435px;  
+     }
+
+     .card-btn-x{
+        margin-top: 30%;
+     }
+
+     #card-three{
+        width: 46.9%;
+        height: 440px;  
+     }
+
+     .card-bt-s{
+        margin-top: 27%;
+     }
+
+     #card-four{
+        width: 46.9%;
+        height: 440px;  
+     }
+
+     .card-btn-d{
+        margin-top: 13%;
+     }
+
+     .banner-img2 img{
+        width: 97%;
+        height: 467.7px;
+        margin-top: 40px;
+        object-fit: cover;
+        object-position: 100%;
+        margin-left: 2%;    
+     }
+
+     .banner-head2 p{
+        font-size: 24px;
+        color: black;
+        font-weight: 500;
+        margin-top: 360px;
+        margin-left: -150px;
+    }
+
+    .banner-para2{
+        color: black;
+        margin-top: 16px;
+        margin-left: -145px;
+    }
+
+    .banner-btn2{
+        margin-left: -145px;
+    }
+
+    .Business-heading{
+        font-size: 24px;
+        color: black;
+        font-weight: 500;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .sec-four{
+        width: 100%;
+        margin-top: -25px;
+        display: flex;
+        flex-wrap: wrap;  
+        justify-content: space-around; 
+        margin-left: 4px;
+    }
+
+    .card2{
+        width: 360px;
+        margin-top: 40px;
+        object-fit: cover;
+        object-position: 120%;
+        margin-right: 0px;
+    }
+
+    .card2 img{
+        width: 100%;
+        height: 167.68px;
+    }
+
+    .card2 .card-head{
+        font-size: 21px;
+    }
+
+    #card-five{
+        width: 46.9%;
+        height: 410px;
+    }
+
+    #card-six{
+        width: 46.9%;
+        height: 410px;
+    }
+
+    #card-seven{
+        width: 46.9%;
+        height: 380px;
+    }
+
+    #card-eight{
+        width: 46.9%;
+        height: 380px;
+    }
+
+    .card-btn-b{
+        margin-top: 70px;
+    }
+
+    .card-btn-m{
+        margin-top: 40px;
+    }
+
+    .card-btn-w{
+        margin-top: 40px;
+    }
+
+    .card-btn-m365{
+        margin-top: 40px;
+    }
+
+    .social-media{
+        margin-top: 70px;
+        margin-left: 20px;
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .social-media li{
+        margin-top: -5px;
+    }
+
+    .final-btn{
+        margin-left: 80%;
+        margin-top: -10px;
+        padding: 10px 14px;
+        font-weight: 500;
+        background-color: #d9d9d9;
+        color: black;
+        border-radius: 2px;
+        border: none;
+        font-size: 16px;
+    }
+
+    footer{
+        width: 100% !important;
+    }
+
+    .footer-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -40px;
+        margin-left: -10px;
+    }
+
+    header{
+        margin-top: 30px;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .bottom1 ul li{
+        display: flex;
+        margin-right: 20px;
+        padding-top: 20px;
+    }
+
+    .bottom2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .bottom2 ul li{
+        margin-left: -15px;
+        display: inline-block;
+        margin-right: 15px;
+        padding-top: 20px;
+    } 
+}
+
+/* Moblie device view */
+@media only screen and (max-width: 480px) {
+
+    .navbar{
+        width: 100% !important;
+        height: 54px !important;
+    }
+
+    .logo img{
+       display: inline-block;
+    }
+
+    .sign-i{
+        margin-top: -15px;
+    }
+    
+    .main-logo{
+        padding: 0% !important;
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+
+    .logo .menu-bars{
+        width: 20px !important;
+        height: 17px !important;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 0%;
+    }
+
+    .logo .cart-icons{
+        width: 16px;
+        height: 16px;
+        margin-left: 230px;
+        margin-top: -80px;
+        padding: 0%;
+    }
+
+    .logo .search-icons{
+        width: 16px;
+        height: 16px;
+        padding:0;
+        margin-left: 8%;
+    }
+
+    .logo .Sign-icons{
+        width: 25px;
+        height: 25px;
+        margin-left: 112%;
+        margin-top: -20px !important;
+        padding: 0%;
+    }
+
+    .slide2{
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: cover;
+        object-position: 90% center;  
+    }
+
+    .banner-img{
+        width: 100% !important;
+        height: 200px;
+        transform: none;
+    }
+
+    .banner-img .slides{
+        width: 100% !important;
+    }
+    
+    .banner-img .slides img{
+        width: 100% !important;
+        z-index: 1;
+        height: 201px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+   
+    .banner-img .slides img{
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: cover;
+        object-position: 90% center;
+    }
+
+    .nav-links{
+       z-index: 3;
+        display: none;
+    }
+
+    .nav-links #menuList2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 654px;
+        margin-left: -245px;
+        font-size: 15px;
+        z-index: 99;
+    }
+
+    .nav-links #menuList2 ul li{
+        padding: 20px 0;  
+        display: flex;
+        flex-direction: column;
+        font-size: 15px; 
+        padding-left: 20px;
+    }
+
+
+    .nav-links ul li{
+        display: inline-block;
+        padding: 3px 8px 10px;
+     }
+     
+     .nav-links-two ul li{
+        display: inline-block;
+        padding: 3px 8px 10px;
+        margin-top: 5px;
+        visibility: hidden;
+     }
+
+     .nav-links-two{
+        display: none;
+     }
+     
+     span{
+        padding: 4px 12px 4px 12px;
+        background-color: #ffb900;     
+     }
+     
+     .banner-text{
+        width: 100% !important;
+        margin-top: -240px !important; 
+        padding: 0%;  
+        margin-left: 10px; 
+     }
+     
+     .head p{
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 500;
+        color: black;    
+     }
+     
+     .banner-btn{
+        padding: 8px 12px;
+        font-weight: 500;
+        background-color: #0067b8;
+        color: white;
+        border-radius: 2px;
+        border: none;
+        margin-top: 25px;
+        font-size: 16px;   
+     }
+     
+     .banner-para{
+         margin-top: 14px;
+         color: black;
+         width: 200px;
+     }
+
+     .slider-btn{
+        margin-top: 120px;
+        margin-left: 13%;
+        display: flex;
+     }
+
+     .slider-btn button{
+        font-size: 30px;
+        font-weight: 100;
+        background-color: white;
+        border: none;
+        width: 30px;
+        height: 30px;
+        padding: 0px 20px;
+        cursor: pointer;
+    }
+
+     section.sec-two{
+        width: 100%;
+        margin-top: 450px;  
+        margin-left: -6%;    
+    }
+    
+    .svg2{
+        margin-top: 40px;
+    }
+
+    .svg3{
+        margin-top: 40px;
+    }
+    
+    .svg4{
+       margin-top: 40px;    
+    }
+
+    .link{
+        display: flex;
+       flex-wrap: wrap;
+    }
+
+    .sec-three{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -2px;
+        align-items: center;
+    }
+
+    .card{
+        width: 92.5%;
+        border-color: gray;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    .card h2{
+        font-size: 21px;
+        margin-top: 16px;
+     }
+
+     .card p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+        padding-right: 1.5%;
+     }
+
+     #card-one{
+        width: 92.5%;
+        height: 470px;
+     }
+
+     #card-two{
+        width: 92.5%;
+        height: 352px;  
+     }
+
+     .card-btn-x{
+        margin-top: 20px;
+     }
+
+     #card-three{
+        width: 92.5%;
+        height: 372px;  
+     }
+
+     .card-bt-s{
+        margin-top: 20px;
+     }
+
+     #card-four{
+        width: 92.5%;
+        height: 450px;  
+     }
+
+     .card-btn-d{
+        margin-top: 43px;
+     }
+
+     .banner-img2 img{
+        width: 95%;
+        height: 186.08px;
+        margin-top: 40px;
+        object-fit: cover;
+        object-position: 105%;  
+        margin-left: 3%;
+     }
+
+     .banner-head2 p{
+        font-size: 24px;
+        color: black;
+        font-weight: 500;
+        margin-top: 360px;
+        margin-left: -150px;
+    }
+
+    .banner-para2{
+        color: black;
+        margin-top: 16px;
+        margin-left: -145px;
+    }
+
+    .banner-btn2{
+        margin-left: -145px;
+    }
+
+    .Business-heading{
+        font-size: 24px;
+        color: black;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .sec-four{
+        width: 100%;
+        margin-top: -25px;
+        display: flex;
+        margin-left: -2px;
+    }
+
+    .card2{
+        width: 92.5%;
+        height: 352px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        object-fit: cover;
+        object-position: 120%;
+    }
+
+    .card2 img{
+        width: 100%;
+        height: 167.68px;
+    }
+
+    .card2 .card-head{
+        font-size: 21px;
+    }
+
+    #card-five{
+        width: 92.5%;
+        height: 370px;
+    }
+
+    #card-six{
+        width: 92.5%;
+        height: 430px;
+    }
+
+    #card-seven{
+        width: 92.5%;
+        height: 380px;
+    }
+
+    #card-eight{
+        width: 92.5%;
+        height: 380px;
+    }
+
+    .card-btn-b{
+        margin-top: 30px;
+    }
+
+    .card-btn-m{
+        margin-top: 40px;
+    }
+
+    .card-btn-w{
+        margin-top: 20px;
+    }
+
+    .card-btn-m365{
+        margin-top: 20px;
+    }
+
+    .social-media{
+        
+        margin-top: 70px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .social{
+        display: block;
+        margin-left: 5px;
+    }
+
+    .social-media ul li{
+        margin-top: 5px;
+    }
+
+    .final-btn{
+        margin-left: 180px;
+        margin-top: -10px;
+        padding: 10px 14px;
+        font-weight: 500;
+        background-color: #d9d9d9;
+        color: black;
+        border-radius: 2px;
+        border: none;
+        font-size: 16px;
+    }
+
+    footer{
+        width: 100% !important;
+    }
+
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: -40px;
+        margin-left: -10px;
+    }
+
+    header{
+        margin-top: 30px;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .bottom1 ul li{
+        display: inline-block;
+        margin-right: 20px;
+        padding-top: 20px;
+    }
+
+    .bottom2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .bottom2 ul li{
+        margin-left: -15px;
+        display: inline-block;
+        margin-right: 15px;
+        padding-top: 20px;
+    }     
+}
+
+ 
+
+
+
