@@ -829,7 +829,7 @@ header{
         margin-left: -758px;
         background-color: #f2f2f2;
         font-size: 15px;
-        width: 120%;
+        width: 100%;
         
        
     }
@@ -1329,6 +1329,7 @@ header{
         margin-left: -245px;
         font-size: 15px;
         z-index: 99;
+        width: 100%;
     }
 
     .nav-links #menuList2 ul li{  
