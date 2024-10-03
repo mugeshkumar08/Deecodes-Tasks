@@ -978,22 +978,29 @@ header{
 
      section.sec-two{
         width: 100%;
-        display: grid !important;
-        grid-row: auto;
+        display: flex;
+        flex-wrap: wrap;
         margin-top: 330px;
-        margin-left: 4px;    
+        margin-left: -48px;    
+    }
+
+    .svg1{
+        margin-left: 225px !important;
     }
 
     .svg2{
-        margin-top: 40px;
+        margin-top: 103px;
+        margin-left: -358px;
      }
 
     .svg3{
-        margin-top: 40px;
+        margin-top: 70px;
+        margin-top: 103px !important;
+       
      }
     
     .svg4{
-       margin-top: 40px;
+       margin-top:103px;
     }
 
     .link{
@@ -1003,7 +1010,7 @@ header{
 
     .sec-three{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 30px;
         display: flex;
         flex-wrap: wrap;    
         margin-left: 4px;
