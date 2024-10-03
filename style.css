@@ -776,7 +776,7 @@ header{
     }
 
     .nav-links ul {
-        margin-top: 20px !important;
+        
         list-style: none;
         padding: 0;
         width: 100% ;
@@ -810,19 +810,28 @@ header{
 
     .sub-links{
         position: absolute;
+        overflow: hidden;
     }
 
     .nav-links-two{
         display: none;
     }
 
+    .menuList1{
+        display: none;
+    }
+
     .nav-links #menuList2{
+        position:absolute;
         display: flex;
         flex-direction: column;
-        margin-top: 333px;
+        margin-top: 25px;
         margin-left: -758px;
         background-color: #f2f2f2;
         font-size: 15px;
+        width: 120%;
+        
+       
     }
 
     .nav-links #menuList2 ul li{
@@ -1310,11 +1319,13 @@ header{
        z-index: 3;
         display: none;
     }
+    .menuList1{
+        display: none;
+    }
 
     .nav-links #menuList2{
         display: flex;
         flex-direction: column;
-        margin-top: 425px;
         margin-left: -245px;
         font-size: 15px;
         z-index: 99;
