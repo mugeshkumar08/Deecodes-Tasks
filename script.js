@@ -50,19 +50,24 @@ setInterval(()=>{
   updatePosition();
 },3000);
 
-// Hamburger
-const menuBar = document.querySelector(".menu-bars");
-const menuList = document.querySelector(".nav-links");
+// Hamburger menubar
+const hamburger = document.querySelector('.menu-bars');
+const menuList = document.getElementById('menuList');
 
-menuBar.addEventListener('click', () => {
-  menuList.classList.toggle('showmenu');
+hamburger.addEventListener('click', () => {
+    menuList.style.display = menuList.style.display === 'block' ? 'none' : 'block';
 });
 
-// const software = document.querySelector("software");
-// const softwareList = document.querySelector("software-sub-link");
+// Hamburger submenu 
+const submenus = document.querySelectorAll('.submenu');
 
-// software.addEventListener('click', () => {
-//   software-sub-link.classList.toggle('show');
+submenus.forEach(submenu => {
+    submenu.addEventListener('click', (event) => {
+        event.preventDefault(); 
+        submenu.classList.toggle('active'); 
+    });
+});
 
-// });
+
+
 
